@@ -202,7 +202,7 @@ animation: move-up-down 5s infinite;
   background-image: url(../assets/spot1.webp);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 107%;
+  background-size: 100%;
   position: relative; /* add this to create a positioning context */
 }
 #spotlight .spotlight-top .spotlight-top-right .leaf,.robo,.robot {
@@ -216,7 +216,7 @@ animation: move-up-down 5s infinite;
 }
 #spotlight .spotlight-top .spotlight-top-right .robot {
   top: 90%;
-  left: 6%;
+  left: 13%;
   width: 5.5%;
   transform: translateY(-50%); 
   animation: move-up-down 8s infinite;
@@ -444,7 +444,7 @@ footer .wrapper .top {
 .dropdown {
   position: relative;
   margin-bottom: 35px;
-  min-width: 215px;
+  min-width: 240px;
 }
 .dropdown .dropbtn {
   background: linear-gradient(to right, #1e90ff, black);
@@ -455,18 +455,23 @@ footer .wrapper .top {
   font-size: 16px;
   border: none;
   cursor: pointer;
+  gap: 10px;
+}
+.dropdown .dropbtn span{
+  display: inline-block;
+  width: 100%;
 }
 .dropdown-content {
   display: none;
   position: absolute;
   background: linear-gradient(to right, #1e90ff, black);
-  min-width: 215px;
+  min-width: 240px; 
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 .dropdown-content a {
   color: black;
-  padding: 5px 5px;
+  padding: 20px 5px;
   display: block;
 }
 .dropdown:hover .dropdown-content {
@@ -475,16 +480,10 @@ footer .wrapper .top {
 .dropdown-content a:hover {
   background-color: #ddd;  
 }
-.dropdown-content img {
-width: 20px;
-height: 20px;
-margin-right: 15px;
-vertical-align: middle;
-}
-button.dropbtn img{
+.dropdown-content a span{
   display: block;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   margin-right: 15px;
 }
 footer .wrapper .top .top-left { 
