@@ -331,7 +331,7 @@ animation: move-up-down 5s infinite;
 #feature .wrapper .content-item {
   position: relative;
   z-index: 100; 
-  margin: 0 auto 20% auto; 
+  margin-bottom: 20%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -588,8 +588,9 @@ footer .top-right ul{
   #spotlight .spotlight-top .spotlight-top-left h1 {
     font-size: 2.9rem;
   }
-   #feature .wrapper .content-item {
-    width: 85%;
+   #feature {
+    padding-left: 5%;
+    padding-right: 5%;
   }
    #feature .wrapper .content-item .content {
     width: 65%;
@@ -760,7 +761,7 @@ footer .top-right ul{
     top: 84%;
   }
   #feature .wrapper .content-item {
-    margin: 0 auto 15% auto;
+    margin-bottom: 15%;
   }
   .box{
     width: 24%;    
@@ -815,7 +816,12 @@ footer .top-right ul{
     display: none;
   }
   .banner{
-    display: none;
+   
+    height: 15vh;
+  }
+  .marquee-content {
+    font-size: 2rem;
+    margin-top: 32px;
   }
   .footer-bottom .footer-bottom-left {
     width: 20%;
@@ -852,4 +858,4 @@ footer .top-right ul{
   }
 }
 
-/* end */
+/* last */
